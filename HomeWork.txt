@@ -1,0 +1,68 @@
+Problem 1
+
+
+
+
+problem 2:
+
+var currYear = 2019;
+var BYear = 1994;
+var totalAge = currYear - BYear
+
+console.log ( "Your old is " + totalAge + " or " + (totalAge - 1) + "!!");
+
+output :
+Your old is 25 or 24!!
+
+problem 3 :
+
+var currAge = 25;
+var maxAge = 90;
+var amountPerDay = 3;
+var total = maxAge - currAge;
+var totalAmount = total * amountPerDay;
+
+console.log ("You will need " + totalAmount + " to last you until the ripe old age of " + maxAge );
+
+out put : 
+You will need 195 to last you until the ripe old age of 90
+
+
+problem 4:
+
+part 1:
+
+var radius = 5;
+var circumference = 2 * radius * 3.14;
+
+console.log("The circumference is " + circumference );
+
+output :
+The circumference is 31.400000000000002
+
+
+part 2:
+
+var radius = 5;
+var area = (5 * 5) * 3.14;
+
+console.log("The area is " + area );
+
+output:
+The area is 78.5
+
+
+problem 5 :
+
+var celsius = 10;
+var fahrenheit = 50;
+
+var conToFahrenheit = (celsius * 9/5) + 32;
+var conToCelsius = ( fahrenheit - 32 ) * 9/5;
+console.log( celsius + "C is " + conToFahrenheit +"F");
+console.log( fahrenheit +"F is " + conToCelsius +"C");
+
+output :
+
+10C is 50F
+50F is 32.4C
